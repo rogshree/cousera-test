@@ -9,19 +9,33 @@ body{
 }
 section{
 	position: relative;
-	float: left;
-	margin-left:10px;
-	width: 30%;
-	border:2px solid black;
+	
 }
 h1{
 	margin: 0px;
 	font-size: 30px;
 	text-transform: uppercase;
-	padding-left: 5px;
 	position: absolute;
 	top:0;
 	right: 0;
+}
+.para1{
+	background-color: pink;
+	}
+.para2{
+	background-color: blue;
+	}
+.para3{
+		background-color: green;
+}
+.section1{
+	background-color: red;
+} 
+.section2{
+	background-color: maroon;
+}
+.section3{
+	background-color: gray;
 }
 #tophead{
 	text-align: center;
@@ -33,4 +47,37 @@ p {
 	margin-top: 50px;
 	padding-left: 5px;
 	font-size: 20px;
+}
+@media (min-width: 992px)
+{
+	.sup{
+		float: left;
+		width: 30%;
+		height: 300px;
+		margin-left: 1.5%;
+		border:1px solid black;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.sup{
+		float: left;
+		width:48%;
+		margin-left: 0.5%;
+		margin-top: 10px;
+		border:1px solid black;
+	}
+	div .section3{
+		width: 95%;
+		margin-left: 2.3%
+	}
+}
+@media (max-width: 767px)
+{
+	.sup{
+		float: left;
+		width:97%;
+		margin-top: 10px;
+		border:1px solid black;
+	}
 }
