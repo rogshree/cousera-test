@@ -1,0 +1,19 @@
+body{
+	background-color: maroon;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	background-color: yellow;
+	border-radius:0;
+	border:0;
+	height: 60px;
+}
+.navbar-brand{
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-shadow: 2px 2px 2px #222;
+}
+.navbar-brand a:hover
+{
+    text-decoration:none;	
+}
