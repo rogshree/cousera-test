@@ -9,6 +9,7 @@ body{
 	height: 60px;
 }
 .navbar-brand{
+	font-size: 2em;
 	text-transform: uppercase;
 	font-weight: bolder;
 	text-shadow: 2px 2px 2px #222;
